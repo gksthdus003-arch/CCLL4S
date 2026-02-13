@@ -1,205 +1,39 @@
-<!doctype html>
-<html lang="ko" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title></title>
-
-  <style>
-    /* 웹용: 전체 폰트 고정 */
-    body, table, td, a, p, span, div {
-      font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Malgun Gothic', '맑은 고딕', Arial, sans-serif;
-    }
-
-    /* 이미지 공백 제거 */
-    img { display:block; width:100%; height:auto; border:0; margin:0; padding:0; }
-
-    /* 컨테이너: 700px 고정 레이아웃 */
-    .container { width:100%; max-width:700px; margin:0 auto; background:#ffffff; }
-    .w100 { width:100%; }
-
-    /* 유튜브 반응형(16:9) */
-    .video-wrap { width:100%; }
-    .video-frame {
-      width:100%;
-      aspect-ratio: 16 / 9;
-      border:0;
-      display:block;
-      background:#000;
-    }
-
-    @media screen and (max-width: 700px) {
-      .container { max-width:100% !important; }
-    }
-  </style>
-</head>
-
-<body style="margin:0; padding:0; background:#ffffff;">
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
-    <tbody>
-      <tr>
-        <td align="center" style="padding:20px 0; margin:0;">
-
-          <!-- 고정 컨테이너 -->
-          <table role="presentation" class="container" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
-            <tbody>
-
-              <!-- 상단 '웹에서 보기' -->
-              <tr>
-                <td style="padding:15px 5px 5px 5px; font-size:12px; line-height:1.7; color:#747579; text-align:right;">
-                  웹에서 보기
-                </td>
-              </tr>
-
-              <!-- 이미지 1 -->
-              <tr>
-                <td style="line-height:0; font-size:0; padding:0; margin:0;">
-                  <img src="https://img2.stibee.com/87638_3210780_1770959990973443572.png" alt="">
-                </td>
-              </tr>
-
-              <!-- 영상 영역 (유튜브 인라인 재생) -->
-              <tr>
-                <td style="background:#F9F8F6; padding:15px; line-height:0; font-size:0;">
-                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
-                    <tbody>
-                      <tr>
-                        <td style="line-height:0; font-size:0;">
-                          <iframe
-                            class="video-frame"
-                            src="https://www.youtube.com/embed/m92mX2efAAI?rel=0&modestbranding=1"
-                            title="YouTube video player"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            allowfullscreen>
-                          </iframe>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </td>
-              </tr>
-
-              <!-- 이미지 2 -->
-              <tr>
-                <td style="line-height:0; font-size:0; padding:0; margin:0;">
-                  <img src="https://img2.stibee.com/87638_3195430_1768892386853980765.jpg" alt="">
-                </td>
-              </tr>
-
-              <!-- spacer -->
-              <tr>
-                <td style="height:35px; background:#F9F8F6; line-height:0; font-size:0;">&nbsp;</td>
-              </tr>
-
-              <!-- 🔴 CTA 버튼: 신청 전, 교육 상담 요청하기 -->
-              <tr>
-                <td style="background:#F9F8F6; padding:25px 15px 5px 15px; text-align:center; line-height:0; font-size:0;">
-                  <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate; background:#f62626; border-radius:500px; display:inline-table;">
-                    <tbody>
-                      <tr>
-                        <td style="padding:20px 28px; text-align:center; border-radius:500px;">
-                          <a href="https://moaform.com/q/gvTDKD"
-                             style="display:inline-block; font-size:20px; line-height:1; color:#ffffff; text-decoration:none;">
-                            <b>&nbsp; 신청 전, 교육 상담 요청하기&nbsp;&nbsp;</b>
-                          </a>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </td>
-              </tr>
-
-              <!-- 안내문 -->
-              <tr>
-                <td style="background:#F9F8F6; padding:0 15px 25px 15px; text-align:center; font-size:14px; line-height:1.7; color:#000000;">
-                  ※ 교육 신청은 상담 후 결정하셔도 됩니다.
-                </td>
-              </tr>
-
-              <!-- 이미지들 -->
-              <tr><td style="line-height:0;font-size:0;padding:0;margin:0;"><img src="https://img2.stibee.com/87638_3195430_1768892452601005925.jpg" alt=""></td></tr>
-              <tr><td style="line-height:0;font-size:0;padding:0;margin:0;"><img src="https://img2.stibee.com/87638_3195430_1768885089718149419.jpg" alt=""></td></tr>
-              <tr><td style="line-height:0;font-size:0;padding:0;margin:0;"><img src="https://img2.stibee.com/87638_3210780_1769584285900359587.jpg" alt=""></td></tr>
-              <tr><td style="line-height:0;font-size:0;padding:0;margin:0;"><img src="https://img2.stibee.com/87638_3195430_1768889314167080079.jpg" alt=""></td></tr>
-
-              <!-- 🟤 브로슈어 다운로드 버튼 -->
-              <tr>
-                <td style="background:#F9F8F6; padding:0 15px; text-align:center; line-height:0; font-size:0;">
-                  <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate; background:#6b5a2e; border-radius:500px; display:inline-table;">
-                    <tbody>
-                      <tr>
-                        <td style="padding:20px 26px; text-align:center; border-radius:500px;">
-                          <a href="https://drive.google.com/file/d/1uIObThJbb86vBsW-rsBrTlAULsrL69CP/view?usp=sharing"
-                             style="display:inline-block; font-size:18px; line-height:1; color:#ffffff; text-decoration:none;">
-                            <b>&nbsp; &nbsp; 과정 소개 브로슈어 다운로드 하기&nbsp; &nbsp; &nbsp;</b>
-                          </a>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </td>
-              </tr>
-
-              <!-- 이미지 -->
-              <tr><td style="line-height:0;font-size:0;padding:0;margin:0;"><img src="https://img2.stibee.com/87638_3195430_1768894847038627971.jpg" alt=""></td></tr>
-              <tr><td style="line-height:0;font-size:0;padding:0;margin:0;"><img src="https://img2.stibee.com/87638_3210780_1770960009665328415.png" alt=""></td></tr>
-
-              <!-- 🟤 하단 2개 버튼: 2컬럼 table 유지 -->
-              <tr>
-                <td style="background:#F9F8F6; padding:0; margin:0;">
-                  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;">
-                    <tbody>
-                      <tr>
-                        <td width="50%" valign="top" style="padding:15px 15px 5px 15px;">
-                          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate; background:#6b5a2e; border-radius:500px;">
-                            <tbody>
-                              <tr>
-                                <td style="padding:20px 26px; text-align:center; border-radius:500px;">
-                                  <a href="https://moaform.com/q/gvTDKD"
-                                     style="display:block; width:100%; font-size:18px; line-height:1; color:#ffffff; text-decoration:none; text-align:center;">
-                                    <b>상담 요청</b>
-                                  </a>
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </td>
-
-                        <td width="50%" valign="top" style="padding:15px 15px 5px 15px;">
-                          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:separate; background:#6b5a2e; border-radius:500px;">
-                            <tbody>
-                              <tr>
-                                <td style="padding:20px 26px; text-align:center; border-radius:500px;">
-                                  <a href="https://moaform.com/q/avya7X"
-                                     style="display:block; width:100%; font-size:18px; line-height:1; color:#ffffff; text-decoration:none; text-align:center;">
-                                    <b>교육 신청</b>
-                                  </a>
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </td>
-              </tr>
-
-              <!-- 하단 안내문 -->
-              <tr>
-                <td style="background:#F9F8F6; padding:0 15px 25px 15px; text-align:center; font-size:14px; line-height:1.7; color:#000000;">
-                  ※ 교육 신청은 상담 후 결정하셔도 됩니다.
-                </td>
-              </tr>
-
-              <!-- (푸터 제거 완료) -->
-
-            </tbody>
-          </table>
-
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</body>
-</html>
+<!-- 영상 영역: 썸네일 미리보기 → 클릭 시 인라인 재생(JS 없음) -->
+<table width="100%" cellpadding="0" cellspacing="0" style="border:0;background:#F9F8F6;border-collapse:collapse;">
+  <tbody>
+    <tr>
+      <td style="text-align:center;margin:0;padding:15px;line-height:0;font-size:0;">
+        <iframe
+          style="display:block;width:100%;height:auto;border:0;aspect-ratio:16/9;background:#000;"
+          loading="lazy"
+          src="https://www.youtube.com/embed/m92mX2efAAI?rel=0&modestbranding=1"
+          srcdoc='
+            <style>
+              *{padding:0;margin:0;overflow:hidden}
+              html,body{height:100%}
+              a{display:block;width:100%;height:100%}
+              img{position:absolute;width:100%;height:100%;object-fit:cover;display:block}
+              .btn{
+                position:absolute;left:50%;top:50%;
+                transform:translate(-50%,-50%);
+                width:88px;height:62px;
+              }
+              .btn svg{width:100%;height:100%}
+            </style>
+            <a href="https://www.youtube.com/embed/m92mX2efAAI?autoplay=1&rel=0&modestbranding=1">
+              <img src="https://i.ytimg.com/vi/m92mX2efAAI/maxresdefault.jpg" alt="video preview">
+              <span class="btn" aria-hidden="true">
+                <svg viewBox="0 0 68 48">
+                  <path d="M66.52 7.06a8 8 0 0 0-5.64-5.66C56.06 0 34 0 34 0S11.94 0 7.12 1.4A8 8 0 0 0 1.48 7.06 83.6 83.6 0 0 0 0 24a83.6 83.6 0 0 0 1.48 16.94 8 8 0 0 0 5.64 5.66C11.94 48 34 48 34 48s22.06 0 26.88-1.4a8 8 0 0 0 5.64-5.66A83.6 83.6 0 0 0 68 24a83.6 83.6 0 0 0-1.48-16.94z" fill="#f00"/>
+                  <path d="M45 24 27 14v20z" fill="#fff"/>
+                </svg>
+              </span>
+            </a>'
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </td>
+    </tr>
+  </tbody>
+</table>
